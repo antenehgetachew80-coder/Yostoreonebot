@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyparser.json());
 
 const VERIFY_TOKEN = 'Yostoreone1604776';
-const PAGE_ACCESS_TOKEN= 'YOUR_PAGE_ACCESS_TOKEN_HERE'; //You'll replace this later!
+const PAGE_ACCESS_TOKEN= 'EAAXSqKobyoEBR69bMBEvCda32GcxL1OnKrDVFnQBCVvdmi1CIp3WfZCGeZA1CPIrFwmoBDZCdkzZB7oFrYYhaJ2ZAOaTilNhKqTJQ6D2J6FGrdTokJI04ppj3nBZAQcHSw8UclpTsAYgpI7oDWQ0tfWZCd2t8qemNW0pbqZBmGLjvfRlTMOCHccQI3GKbUQZCoDtLPRo69XAyjAZDZD'; //You'll replace this later!
 
 //Your 19 answers
 const ANSWERS = {
