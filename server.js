@@ -92,7 +92,7 @@ function sendMainMenu(recipientId) {
 }
 
 function sendMessage(recipientId, text) {
-  axios.post(https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}, {
+  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, {
     recipient: { id: recipientId },
     message: { text: text }
   });
