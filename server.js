@@ -8,7 +8,7 @@ app.use(bodyparser.json());
 const VERIFY_TOKEN = 'Yostoreone1604776';
 const PAGE_ACCESS_TOKEN= 'EAAXSqKobyoEBR69bMBEvCda32GcxL1OnKrDVFnQBCVvdmi1CIp3WfZCGeZA1CPIrFwmoBDZCdkzZB7oFrYYhaJ2ZAOaTilNhKqTJQ6D2J6FGrdTokJI04ppj3nBZAQcHSw8UclpTsAYgpI7oDWQ0tfWZCd2t8qemNW0pbqZBmGLjvfRlTMOCHccQI3GKbUQZCoDtLPRo69XAyjAZDZD'; 
 
-//Your 19 answers
+//My 19 answers
 const ANSWERS = {
 '1' : 'Answer 1: Red #E74C3C: Excitement, passion, urgency, boldness. Used to stimulate appetite and create a sense of action (e.g., Coca-Cola, YouTube).',
 '2' : 'Answer 2: Orange #E67E22: Enthusiasm, creativity, friendliness, warmth. Encourages social interaction and fun (e.g., Fanta, Nickelodeon).',
