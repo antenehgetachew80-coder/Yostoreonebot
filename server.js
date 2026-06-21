@@ -88,7 +88,7 @@ function sendMainMenu(recipientId) {
     });
   }
   
-  axios.post(https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}, message);
+  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message);
 }
 
 function sendMessage(recipientId, text) {
