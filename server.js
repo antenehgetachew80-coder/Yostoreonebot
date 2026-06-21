@@ -84,7 +84,7 @@ function sendMainMenu(recipientId) {
     message.message.quick_replies.push({
       content_type: 'text',
       title: `${i}`,
-      payload: ANSWER_${i}
+      payload: `ANSWER_${i}`
     });
   }
   
