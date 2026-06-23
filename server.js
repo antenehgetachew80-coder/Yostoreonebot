@@ -1,4 +1,4 @@
-const express = require('express');
+9const express = require('express');
 const bodyparser = require('body-parser');
 const axios = require('axios');
 
@@ -92,7 +92,7 @@ function sendMainMenu(recipientId) {
 }
 
 function sendMessage(recipientId, text) {
-  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, {
+  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message) {
     recipient: { id: recipientId },
     message: { text: text }
   });
