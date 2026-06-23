@@ -91,12 +91,9 @@ function sendMainMenu(recipientId) {
   axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message);
 }
 
-function sendMessage(recipientId, text) {
-  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message) {
-    recipient: { id: recipientId },
-    message: { text: text }
-  });
-}
+check
+
+function sendMainMenu(recipientId) {  const message = {    recipient: { id: recipientId },    message: {      text: '🔢 Choose a number 1-19:',      quick_replies: []    }  };  for (let i = 1; i <= 19; i++) {    message.message.quick_replies.push({      content_type: 'text',      title: `${i}`,      payload: `ANSWER_${i}`    });  }  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message)    .then(response => {      console.log('Menu sent successfully');    })    .catch(error => {      console.error('Error sending menu:', error.response ? error.response.data : error.message);    });}
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
