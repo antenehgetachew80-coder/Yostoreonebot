@@ -35,7 +35,7 @@ res.send('Error');
 }
 });
 // Handle incoming message
-sapp.post('/webhook', (req, res) => {  
+ app.post('/webhook', (req, res) => { 
 const body = req.body;  
 
 if (body.object === 'page') {    
