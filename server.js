@@ -65,7 +65,8 @@ function sendMainMenu(recipientId) {
 const message = {    
 recipient: { id: recipientId },    
 message: {      
-text: '🔢 Choose a number 1-19:',      quick_replies: []    
+text: '🔢 Choose a number 1-19:',
+quick_replies: []    
 }  
 };  
 for (let i = 1; i <= 19; i++) {    
@@ -74,7 +75,8 @@ content_type: 'text',
 title: `${i}`,      
 payload: `ANSWER_${i}`    
 });  
-}  axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message)    
+}
+axios.post(`https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`, message)    
 .then(() => {      
 console.log('Menu sent successfully');    
 })    
