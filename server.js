@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 app.use(bodyParser.json());
 const VERIFY_TOKEN = 'Yostoreone1604776';
-const PAGE_ACCESS_TOKEN= `EAAXSqKobyoEBR9I7tVJshXYSjze3ybK7qWvjW2coG98kGiGUhqZBzENYNkcNj6N1Y5EjgaUb9KfENScJ9cr1TRTjuN7YEtdew6NfVi63Lubuoxyh1FLTfrLuLZCxdSkswOEvxTYqraddOZCsPrZAb93BLXWJEisY9T2jNDYc8uHIWOZCQhjgFRYyjoXDg5Xgr7BJQrxrWPwZDZD`;
+const PAGE_ACCESS_TOKEN= `EAAXSqKobyoEBR0TPYndXQfHUb1G08MS95ZAY1Pxppa55Lp0WryccW81QT7QURZB5WQI4yQDvMtOkpKySpYwGiVTmbvpi2cgZA2pOJO6SHj3w4pNY5NtdXSFZAZBagqJIZBXInYgjlwS9Kp2cM4sH9qIpLj7SN41gF6UzD7g9RbND7c4O0B4sFu4qBhl2e3zQJK28r14FYRNwZDZD`;
 // My 19 color answers
 const ANSWERS = {  
 '1': 'Answer 1: Red #E74C3C: Excitement, passion, urgency, boldness. Used to stimulate appetite and create a sense of action (e.g., Coca-Cola, YouTube).',  
