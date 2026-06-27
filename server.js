@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 app.use(bodyParser.json());
 const VERIFY_TOKEN = 'Yostoreone1604776';
-const PAGE_ACCESS_TOKEN= `EAAXSqKobyoEBR0yi7IEsu9HIiYplNu2ZBRZBmtOJEHhaQZB2uGXbQisOh1mGZAf9wiDZCCweyZBbNoXGxd49hURsgTAlNOwxZBC73AdGZBstC08sO9qitUlwRARVlscrt5v0PKXFKPlja2KQVPIWDoxJTryFyfFKdZBs8ZBh7s6zcrerRTFme7AyDqXr8tSHH21EOYecp3tiGRGwZDZD`;
+const PAGE_ACCESS_TOKEN= `EAAXSqKobyoEBR1CEG4NWItHB2QwhW1wJbdbEXn8WUZC4YMPklxtFPUR27Dd786PvONFElZBZCIpq6tXThOFQagZBPbZBvMT0HleMwBMgukppE3PtlqmCQmCohjjUKFUMlIK0aZA91ZAGP3OakfBZCufPwqgl77WGSHgLExWP9TtIZCE2JP6AyP9GxbwC9JldZBtqJMLnpZA2PHUHa8gkKQAyNzjPWmVMtDZBkS0vItaxxYC7xQTNFA6gZAaiKS6UeQiF9b5SKA0nkZAf12H2x4QQ4B3DNTWi6m`;
 // My 19 color answers
 const ANSWERS = {  
 '1': 'Answer 1: Red #E74C3C: Excitement, passion, urgency, boldness. Used to stimulate appetite and create a sense of action (e.g., Coca-Cola, YouTube).',  
