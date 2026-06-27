@@ -44,7 +44,10 @@ const event = entry.messaging[0];
 if (event.message && event.message.text) {        
 const senderId = event.sender.id;        const userMessage = event.message.text.trim();        console.log('User sent:', userMessage); 
 // Debug log        
-if (userMessage.toLowerCase() === 'menu') {          sendMainMenu(senderId);          return;        
+if (userMessage.toLowerCase() === 'menu') 
+{
+ sendMainMenu(senderId);
+ return;        
 }        
 const answer = ANSWERS[userMessage];        if (answer) {          
 sendMessage(senderId, answer);        
